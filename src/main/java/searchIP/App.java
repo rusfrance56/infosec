@@ -12,7 +12,7 @@ public class App {
     public static void main(String[] args) {
         long timeout = System.currentTimeMillis();
 
-        Path dir = Paths.get("C:\\Users\\User\\IdeaProjects\\searchIP\\testFiles");
+        Path dir = Paths.get("testFiles");
         processFilesFromFolder(dir);
 
         timeout = System.currentTimeMillis() - timeout;
